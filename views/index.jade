@@ -1,0 +1,44 @@
+extends layout
+
+block header
+
+block content
+    .hero-unit
+       h1 fastAnswers
+       h3 "Make everything as simple as possible, but not simpler." - Albert Einstein
+
+         p The future of trivia games is getting closer, and closer. Experience the limitless information, and test your knowledge.
+         a.btn.btn-primary.btn-large(href='/contactus') Contact us &raquo;
+
+     blockquote
+       p 
+         b Last year, you said that maybe you had made a mistake in naming it the Semantic Web. Do you think the name confuses some people?
+         p "The word semantics is used by different groups to mean different things. But now people understand that the Semantic Web is the Data Web. I think we could have called it the Data Web. It would have been simpler. I got in a lot of trouble for calling the World Wide Web "www" because it was so long and difficult to pronounce. At the end, when people understand what it is, they understand that it connects all applications together or gives them access to data across the company when they see a few general Semantic Web applications."
+         small
+           | Taken from Business Week's 
+           a(href='http://www.businessweek.com/stories/2007-04-09/q-and-a-with-tim-berners-leebusinessweek-business-news-stock-market-and-financial-advice') "Q&A with Tim Berners-Lee"
+           |  interview.
+    .row
+      .span4 
+        h2 Who are we?
+        p fastAnswers game was developed, during the 2012 Sabanci University Summer School, in the context of CS480 course.
+        p Original idea came from Agis and Yagiz implemented the vision through latest web technologies.
+        | Dr. Agis Papantoniou - 
+        a(href='http://gr.linkedin.com/pub/agissilaos-papantoniou/4/209/758') (linkedIn) 
+        br
+        | Yagiz Nizipli, Sabanci University - 
+        a(href='http://yagiz.nizipli.com') (Portfolio)
+      .span4 
+        h2 FAQ?
+        p This documentation, a brief introduction to fastAnswers, does provide the capabilities and unknown facts about trivia games and fastAnswers. In order to investigate the difference between other trivia games and fastAnswers, please refer to FAQ.
+        p
+          a.btn(href="/faq") View details &raquo;
+
+      .span4 
+        h2 Improvements
+        p Do you want to see the differences and improvements we do to fastAnswers system? Feel free to visit the version control page and collaborate with us. Share your ideas and let us make these true!
+        p  
+          a.btn(href="/version") View details &raquo;
+    hr 
+    footer
+      p &copy; fastAnswer

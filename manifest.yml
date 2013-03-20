@@ -1,0 +1,17 @@
+---
+applications:
+  .:
+    name: denemeapp
+    framework:
+      name: node
+      info:
+        mem: 64M
+        description: Node.js Application
+        exec: 
+    infra: hp
+    url: /
+    mem: '128'
+    instances: 1
+    services:
+      mongoose:
+        type: mongodb
